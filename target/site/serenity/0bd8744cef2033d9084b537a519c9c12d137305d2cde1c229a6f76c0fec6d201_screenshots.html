@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="a10228390bb184a94ceb2eb1f7de337658481bde9d6c5ec2aec62d4e980cef57.html">Registro En La Pagina De Utest.Com</a></span>
+                > <span class="truncate-60"><a
+                    href="0bd8744cef2033d9084b537a519c9c12d137305d2cde1c229a6f76c0fec6d201.html">Registro exitoso pagina Utest </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-10-2020 08:45</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registro En La Pagina De Utest.Com </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>Como usuario
+Quiero ingresar a la pagina de Utest
+Y realizar el registro exitoso
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Registro exitoso pagina Utest
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Assertion error: Expected condition failed: waiting for By.xpath: //*[@id='mainContent']/div/div/div[1]/div/h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'CHMEPPF0V0UNM', ip: '192.168.147.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'Driver info: driver.version: unknown">
+                            Assertion error: Expected condition failed: waiting for By.xpath: //*[@id='mainContent']/div/div/div[1]/div/h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.11.0', revision: 'e59cfb3', time: '2...
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.AssertionError
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;mainContent&quot;]/div/div/div[1]/div/h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'CHMEPPF0V0UNM', ip: '192.168.147.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'<br>Driver info: driver.version: unknown</pre>
+                                    </h5>
+                                    co.com.proyectobase.screenplay.stepdefinitions.RegistroPaginaUTestStepDefinitions.verificaQueElRegistroSeaExitoso(RegistroPaginaUTestStepDefinitions.java
+                                    :32) <br>
+                                    ✽.verifica que el registro sea exitoso(src/test/resources/features/registro_pagina_u_test.feature
+                                    :16) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource5129162026968930606.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="05785af1594e742cebb17db6e5c3729a8a1ec7939c9fac6306137a4389779909.png" title="Dado que Jesus ingresa a la pagina de Utest" width="1366"/>
+                <img src="515a16dc0ce94927ef6441f3de136ac7d6fee0a3997c3779b868727a9d29cfe2.png" title="Jesus opens the Pagina inicial u test" width="1366"/>
+                <img src="c401e80a07001377433b202b527e686df71a16d26f2010b33e19c0ce9cbf26b6.png" title="Cuando diligencia el formulario de registro con sus datos
+| nombre | apellido | correo | mes | dia | ano | idioma | ciudad | codigoPostal | pais | contrasena |
+| andres | durango | correo123@correo.com | December | 15 | 1991 | Spanish | Medell&iacute;n | 050001 | Colombia | Dor@do2020 |" width="1366"/>
+                <img src="4528f50cb39cb3505fee77fdcbf1ab729c9be2d2389bb47818fc76e3b19bc53e.png" title="Jesus enters 'andres' into " width="1366"/>
+                <img src="2db073e357c63873df070f3d847cfbedff05353447852b845461dee8ab1a0fd1.png" title="Jesus enters 'durango' into " width="1366"/>
+                <img src="2d21288f5299ca7389e3f8347b13095cb51090fa53cf46b25cb706fb5f07e486.png" title="Jesus enters 'correo123@correo.com' into " width="1366"/>
+                <img src="41f9c3e503c295ee918fe4ef1754401ea9a5968919c29cffbb3b5bc5891f8642.png" title="Jesus select December on " width="1366"/>
+                <img src="870953cd217c13cb6aab6787b27418f200becc8418233a59e0623093f8e5a720.png" title="Jesus select 15 on " width="1366"/>
+                <img src="09975792b642393561b432ec8504ce982d09be086ad66799492ac0cc6053e3b9.png" title="Jesus select 1991 on " width="1366"/>
+                <img src="c1664eb3a0fcb60e1d55efcbcfdb76dc4537738a9655ecfba4020dc028f754cd.png" title="Jesus enters 'Spanish' into " width="1366"/>
+                <img src="4f42cb671a53a6945e6163f4069f62a522047ac0eb89af8b707870dc8cc83816.png" title="Jesus clicks on " width="1366"/>
+                <img src="677f3f43533fa5bc3cf412fc5913c74182897e849b5690b144c62c4449d2ce53.png" title="Jesus enters 'Medell&iacute;n' into " width="1366"/>
+                <img src="82f99734452a6ec893205896b972e327cd8c94dfaf993b6865ddae5c3af1ce1f.png" title="Jesus types 'ARROW_DOWN,ENTER' in " width="1366"/>
+                <img src="8cb19332d0f89b675d1b9ae70dce547f1aba8e5e2c80fd7d1cd831e467945b66.png" title="Jesus enters '050001' into " width="1366"/>
+                <img src="2807f5ca68c113a3c6196e4f8618ace3d650674f39b063416cef38fa5b523f5c.png" title="Jesus enters 'Colombia' into " width="1366"/>
+                <img src="d7ca8a05d309547c1954b392a5c3bf00607bc712b54550939cdf94ea1e0e3dc5.png" title="Jesus clicks on " width="1366"/>
+                <img src="1f78ce2e3b75ecd7a741b4013abaacefbe3e0005c85673980ce2e95e10e0508c.png" title="Jesus clicks on " width="1366"/>
+                <img src="e8d0d56d8c5df9b2b854a7982dbf553642c879b8ac245cb4ca68893c705597e7.png" title="Jesus enters 'Dor@do2020' into " width="1366"/>
+                <img src="e82f0488ba3805eb9040b364dea26b5ca7cbdd91245c7b5090906284df6261e4.png" title="Jesus enters 'Dor@do2020' into " width="1366"/>
+                <img src="866db8f723c3c2a04443f614408e1a71426a6323a69028fa4992ddb5a0484be1.png" title="Jesus clicks on " width="1366"/>
+                <img src="5d33c707f9001e2925eb85b65bac0bdcaef924627fa9b222a473dd3f454324e6.png" title="Jesus clicks on " width="1366"/>
+                <img src="81aa3114c60c266d8d4a917005a39d9c7ea6126daf7dd9734a6f0617aeaf9525.png" title="Jesus clicks on " width="1366"/>
+                <img src="308003935e54a516e4117017d186b6d76be856799735d0f9ae778b53ba768a3a.png" title="Then verificar: <span class='error-color'>ERROR</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

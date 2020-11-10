@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Registro en la pagina de Utest.com" skipped="0" tests="1" time="63.41" timestamp="2020-10-02 08:45:15"><testcase name="Registro exitoso pagina Utest"><error message="Expected condition failed: waiting for By.xpath: //*[@id=&quot;mainContent&quot;]/div/div/div[1]/div/h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEPPF0V0UNM', ip: '192.168.147.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">Expected condition failed: waiting for By.xpath: //*[@id="mainContent"]/div/div/div[1]/div/h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0V0UNM', ip: '192.168.147.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //*[@id="mainContent"]/div/div/div[1]/div/h1 to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0V0UNM', ip: '192.168.147.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: unknown&#13;
+co.com.proyectobase.screenplay.stepdefinitions.RegistroPaginaUTestStepDefinitions.verificaQueElRegistroSeaExitoso(RegistroPaginaUTestStepDefinitions.java:32)&#13;
+✽.verifica que el registro sea exitoso(src/test/resources/features/registro_pagina_u_test.feature:16)&#13;
+</system-err></testcase></testsuite>
